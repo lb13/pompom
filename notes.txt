@@ -1,3 +1,4 @@
 Colours:
 Background - #FFCFD5
 Foreground / text - #FF7979
+Peach color: #FFEADC
