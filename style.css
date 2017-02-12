@@ -1,0 +1,67 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.head-bg {
+	background-color: #FFCFD5;
+	color: white;
+	font-weight: bold;
+	float: left;
+	width: 90%;
+	min-height: 150px;
+}
+
+.logo {
+	float: left;
+	width: 10%;
+}
+
+.social {
+	width: 200px;
+	height: 150px;
+	border: 1px solid red;
+	float: left;
+}
+
+.acc {
+	float: right;
+	border: 1px solid blue;
+	width: 200px;
+	height: 150px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+nav ul li:hover {
+	color: #FF7979;
+}
+
+.banner {
+	width: 700px;
+	height: 300px;
+	border: 1px solid blue;
+	float: left;
+}
+
+.feature {
+	width: 350px;
+	height: 300px;
+	border: 1px solid red;
+	float: right;
+}
+
+.item {
+	width: 400px;
+	height: 400px;
+	float: left;
+	border: 1px solid grey;
+}
+
+#container {
+	width: 90%;
+	margin: auto;
+}
