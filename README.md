@@ -1,2 +1,1 @@
-# pompom
-Pom Pom Paints
+# Pom Pom Paints
