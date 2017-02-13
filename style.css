@@ -2,6 +2,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Open Sans', sans-serif;
+	background-color: #fff3eb;
 }
 
 h1 {
@@ -26,7 +27,7 @@ header {
 }
 
 .social {
-	float: left;
+	float: right;
 	background-color: #FF7979;
 	max-width: 50px;
 }
@@ -95,9 +96,9 @@ nav ul li a:hover {
 .head {
 	margin-left: 250px;
 	margin-top: 10px;
-	font-size: 50px;
-	font-family: "Lucida Calligraphy";
+	font-size: 60px;
 }
+
 
 @media screen and (max-width:680px) {
 	.head {
