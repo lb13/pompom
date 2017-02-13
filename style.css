@@ -28,6 +28,7 @@ header {
 .social {
 	float: left;
 	background-color: #FF7979;
+	max-width: 50px;
 }
 
 .acc {
@@ -108,7 +109,14 @@ nav ul li a:hover {
 		float: right;
 	}
 	nav ul li {
-		margin-bottom: 5px;
+		margin-top: 8px;
+		margin-bottom: 15px;
 		font-size: 20px;
+	}
+	.banner {
+		max-width: 100%;
+	}
+	.feature {
+		max-width: 100%;
 	}
 }
