@@ -1,7 +1,7 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: Sahitya;
 	background-color: #fff3eb;
 }
 
@@ -62,22 +62,26 @@ a {
 	text-decoration: none;
 }
 
-nav ul li a:hover {
-	color: #FFFFFF;
+a:hover {
+	color: #bf5b5b;
 }
 
 .banner {
-	width: 700px;
+	width: 690px;
 	height: 300px;
-	border: 1px solid blue;
 	float: left;
+	border-radius: 5px;
 }
 
 .feature {
 	width: 350px;
-	height: 300px;
-	border: 1px solid red;
+	height: 250px;
 	float: right;
+	overflow: hidden;
+	background-color: #FFEADC;
+	color: #FF7979;
+	padding: 25px 40px 25px 40px;
+	border-radius: 5px;
 }
 
 .item {
@@ -119,5 +123,12 @@ nav ul li a:hover {
 	}
 	.feature {
 		max-width: 100%;
+		float: left;
+	}
+	#etsy {
+		display: none!important;
+	}
+	#etsymob {
+		display: block!important;
 	}
 }
