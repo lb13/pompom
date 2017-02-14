@@ -122,14 +122,14 @@ a:hover {
 		max-width: 100%;
 	}
 	.feature {
-		max-width: 90%;
+		width: 80%;
+		height: 280px;
 		float: left;
 	}
 	#etsy {
 		display: none!important;
 	}
 	#etsymob {
-		display: block!important;
-		width: 100%;
+		display: inline-block!important;
 	}
 }
