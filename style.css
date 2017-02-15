@@ -67,15 +67,28 @@ a:hover {
 }
 
 .banner {
-	width: 690px;
+	width: 50%;
+	max-width: 690px;
 	height: 300px;
 	float: left;
 	border-radius: 5px;
 }
 
 .feature {
-	width: 350px;
+	width: 50%;
+	max-width: 400px;
 	height: 250px;
+	float: right;
+	overflow: hidden;
+	background-color: #FFEADC;
+	color: #FF7979;
+	padding: 25px 40px 25px 40px;
+	border-radius: 5px;
+}
+
+.reviews {
+	width: 50%;
+	max-width: 400px;
 	float: right;
 	overflow: hidden;
 	background-color: #FFEADC;
@@ -103,8 +116,31 @@ a:hover {
 	font-size: 60px;
 }
 
+@media screen and (max-width:1418px) {
+	#etsy {
+		display: none;
+	}
+	#etsymed {
+		display: inline-block!important;
+	}
+	#etsysml {
+		display: none;
+	}
+}
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:1202px) {
+	#etsy {
+		display: none;
+	}
+	#etsymed {
+		display: none!important;
+	}
+	#etsysml {
+		display: inline-block!important;
+	}
+}
+
+@media screen and (max-width:1087px) {
 	.head {
 		display: none;
 	}
@@ -120,19 +156,52 @@ a:hover {
 	}
 	.banner {
 		width: 100%;
+		max-width: 100%;
 	}
 	.feature {
 		width: 90%;
-		height: 230px;
+		max-width: 90%;
+		max-height: 320px;
 		float: left;
 		margin: 0px;
 		padding: 5%;
 	}
-
+	
+	.reviews {
+		width: 90%;
+		max-width: 90%;
+		float: left;
+		margin: 0px;
+		padding: 5%;
+	}
 	#etsy {
 		display: none!important;
 	}
 	#etsymob {
+		display: inline-block!important;
+	}
+	#etsymed {
+		display: none!important;
+	}
+	#etsysml {
+		display: none!important;
+	}
+}
+
+@media screen and (max-width:450px) {
+	#etsy {
+		display: none!important;
+	}
+	#etsymob {
+		display: none!important;
+	}
+	#etsymed {
+		display: none!important;
+	}
+	#etsysml {
+		display: none!important;
+	}
+	#etsyxsml {
 		display: inline-block!important;
 	}
 }
