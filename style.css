@@ -161,7 +161,7 @@ a:hover {
 	.feature {
 		width: 90%;
 		max-width: 90%;
-		max-height: 320px;
+		height: auto;
 		float: left;
 		margin: 0px;
 		padding: 5%;
