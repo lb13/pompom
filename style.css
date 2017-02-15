@@ -20,6 +20,16 @@ header {
 	position: relative;
 }
 
+footer {
+	background-color: #FFEADC;
+	color: #FF7979;
+	font-weight: bold;
+	float: left;
+	width: 100%;
+	min-height: 100px;
+	position: relative;
+}
+
 .logo {
 	float: left;
 	margin-left: 5px;
@@ -63,7 +73,8 @@ a {
 }
 
 a:hover {
-	color: #bf5b5b;
+	color: #FFEADC;
+	background-color: #FF7979;
 }
 
 .banner {
@@ -97,6 +108,34 @@ a:hover {
 	border-radius: 5px;
 }
 
+.article {
+	width: 50%;
+	max-width: 500px;
+	height: auto;
+	float: left;
+	overflow: hidden;
+	background-color: #FFEADC;
+	color: #FF7979;
+	padding: 0px;
+	border-radius: 5px;
+}
+
+.articleHEAD {
+	width: 100%;
+	background-color: #FF7979;
+	color: #FFEADC;
+	font-size: 40px;
+	font-style: italics;
+}
+
+.articleBODY {
+	padding: 10px;
+	font-size: 20px;
+}
+
+#tiles {
+	float: right;
+}
 .item {
 	min-width: 300px;
 	width: 33%;
@@ -166,7 +205,9 @@ a:hover {
 		margin: 0px;
 		padding: 5%;
 	}
-	
+	.article {
+		min-width: 100%;
+	}
 	.reviews {
 		width: 90%;
 		max-width: 90%;
