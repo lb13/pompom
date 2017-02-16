@@ -41,7 +41,7 @@
 <div id="container">
 <br>
 
-<div class="banner" style="background-size: cover; background-image: url('banner.jpg')"></div>
+<div class="banner" style="background-size: cover; background-image: url('banner.jpg')"><img name ="slide"></div>
 
 <div class="feature">
 	<img src="self.png" style="float: left; width: 30%; border-radius: 90px; margin-right: 5px">
@@ -110,6 +110,27 @@
 <footer>
 <div style="position: absolute; left: 20px; bottom: 20px">&copy; Pom Pom Paints 2017</div>
 </footer>
+
+<script>
+var i = 0; // starting point
+var images = [];
+var time = 3000;
+
+images[0] = "image1.jpg"
+images[1] = "image2.jpg"
+images[2] = "image3.jpg"
+images[3] = "image4.jpg"
+
+function changeImg() {
+document.slide.src = images[i];
+	if (i < images.length -1) {
+	i++;
+	}
+	else {i = 0;}
+	
+	setTimeout("changeImg()",time);
+}
+</script>
 
 </body>
 
